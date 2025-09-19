@@ -596,5 +596,35 @@ footer {
   }
 }
 
+.list-unstyled li {
+  list-style-type: disc; /* This adds a filled circle bullet */
+}
 
+.card-custom-height {
+    height: 400px; /* Or any other specific value you need */
+    width: 350px;
+}
+
+.card {
+  /* Existing card styles here */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Moves the card up by 10 pixels */
+}
+
+.card-position {
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.carousel-container {
+  position: relative;
+}
 
