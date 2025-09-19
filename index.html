@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Header</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <div class="address-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <span
+              >Block 13, Office No. 118, 1st Floor, Dubai Knowledge Park, Dubai,
+              UAE</span
+            >
+          </div>
+        </div>
+        <div class="top-bar-right">
+          <div class="contact-info">
+            <i class="fas fa-phone-alt"></i>
+            <span>+971 4 3911178 - +971 4 3911179 - +971 50 4293760</span>
+          </div>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-header">
+        <div class="logo-container">
+          <img src="./asset/logo.png" alt="IPC Gulf Logo" class="logo-img" />
+        </div>
+
+        <button class="menu-toggle" aria-label="Open navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="main-nav">
+          <nav>
+            <ul>
+              <li><a href="./index.html" class="active">HOME</a></li>
+              <li>
+                <a href="./about.html"
+                  >ABOUT US <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li><a href="./contact.html">CONTACT US</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="./asset/full-shot-travel-concept-with-landmarks.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block custom-caption">
+  <h1>First slide label</h1>
+  <p>Some representative placeholder content for the first slide.</p>
+</div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./asset/medium-shot-teenage-friends-approving.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block custom-caption">
+  <h1>First slide label</h1>
+  <p>Some representative placeholder content for the first slide.</p>
+</div>
+
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="about-section">
+      <div class="container">
+        <!-- LEFT: About Content -->
+        <div class="about-content">
+          <h2>ABOUT US</h2>
+          <p class="quote">
+            <em
+              >‘Destiny is not matter of chance. It is a matter of choice. It is
+              not a thing to be waited for it is a thing to be achieved.’</em
+            >
+          </p>
+
+          <p>
+            At <strong>INTERNATIONAL PLACEWELL CONSULTANTS, GULF</strong> we
+            believe in this talisman. When a student is standing at the
+            threshold of his future, deciding the educational route, the
+            decisions that he/she takes shapes their destiny. We at IPC
+            endeavour to hold your hand as you take the most crucial step
+            towards your goals.
+          </p>
+
+          <p>
+            International Placewell Consultants, Gulf an
+            <strong>ISO 9001:2008</strong> certified company, is one of the
+            primary education consultants and approved academic counsellor in
+            the U.A.E. IPC, Gulf is licensed by the
+            <strong class="blue"
+              >U.A.E Ministry of Higher Education and Scientific
+              Research</strong
+            >
+            to represent leading Universities and Colleges worldwide.
+          </p>
+        </div>
+
+        <!-- RIGHT: Info Box -->
+        <div class="info-box">
+          <ul>
+            <li><i class="fa-solid fa-thumbs-up"></i> Since 2003</li>
+            <li>
+              <i class="fa-solid fa-thumbs-up"></i> Approved by Ministry of
+              higher Education and scientific Research Abu Dhabi,UAE.
+            </li>
+            <li><i class="fa-solid fa-thumbs-up"></i> ISO 9001:2008 Company</li>
+            <li><i class="fa-solid fa-thumbs-up"></i> Approved by KHDA</li>
+            <li>
+              <i class="fa-solid fa-thumbs-up"></i> Approved
+              <span class="highlight">IELTS</span> Registration Center
+            </li>
+            <li>
+              <i class="fa-solid fa-thumbs-up"></i> Representing 100 Top Ranked
+              University
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="achievements">
+      <div class="overlay">
+        <h2>CENTER ACHIEVEMENTS</h2>
+        <span class="underline"></span>
+        <p>Here you can review some statistics about our Education Center</p>
+
+        <div class="stats">
+          <div class="stat-item">
+            <i class="fa-solid fa-users"></i>
+            <div class="number" data-target="10000">0</div>
+            <span class="label">PLUS APPLICANTS</span>
+          </div>
+          <div class="stat-item">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <div class="number" data-target="150">0</div>
+            <span class="label">PLUS UNIVERSITIES REPRESENTATION</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ipc-section">
+      <div class="ipc-container">
+        <!-- LEFT SIDE -->
+        <div class="ipc-left">
+          <h2>INTERNATIONAL PLACEWELL <br /><span>CONSULTANTS, GULF</span></h2>
+
+          <p>
+            Block 13, Office No. 118, 1st Floor, Dubai Knowledge Park <br />
+            PO BOX: 46875, Dubai, United Arab Emirates
+          </p>
+
+          <p class="contacts">
+            📞 +97143911178,&nbsp; +97143911179,&nbsp; +97143664670,&nbsp;
+            +971504293760 <br />
+            📧
+            <a href="mailto:dubai@unidirection.com">dubai@unidirection.com</a>
+            &nbsp; 🌐
+            <a href="https://www.unidirection.com" target="_blank"
+              >www.unidirection.com</a
+            >
+          </p>
+
+          <form class="contact-form" id="queryForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <input
+              type="text"
+              name="mobile"
+              placeholder="Your Mobile"
+              required
+            />
+            <textarea name="remarks" placeholder="Remarks" rows="4"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="ipc-right">
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+            width="340"
+            height="500"
+            style="border: none; overflow: hidden"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <h2>TESTIMONIALS</h2>
+      <div class="slider-container">
+        <button class="nav-btn prev"><span>&lt;</span></button>
+
+        <div class="testimonial-slide active">
+          <div class="profile">
+            <img src="https://i.pravatar.cc/150?img=5" alt="Profile" />
+            <div class="name">
+              Lina Moundy-Holley
+              <span class="underline"></span>
+            </div>
+          </div>
+          <p class="message">
+            It’s really not easy to do all the university applications,
+            admission papers, and all the visa procedure. It’s also sometimes
+            very scary and stressful! Khaled was here to help me during the
+            process and without his help I don’t think would of make it. IPC,
+            International Placewell, Consultants, Gulf is always here for you.
+            From the start to the end, always very reactive on text and
+            everything. I’m from France, in Europe and I have done my visa in
+            Dubai with the help of IPC. They knows very well everything about EU
+            passport and visa procedures! I 100% recommended it! Doing all the
+            applications procedures is less stressful with the help of IPC! Good
+            luck to all of the new students going to university.
+          </p>
+        </div>
+
+        <div class="testimonial-slide">
+          <div class="profile">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Profile" />
+            <div class="name">
+              John Doe
+              <span class="underline"></span>
+            </div>
+          </div>
+          <p class="message">
+            Fantastic service! Everything was smooth and stress-free. Highly
+            recommend IPC for anyone applying abroad.
+          </p>
+        </div>
+
+        <button class="nav-btn next"><span>&gt;</span></button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section services">
+          <h2>OUR SERVICES</h2>
+          <ul>
+            <li>
+              <a href="#"> > Accomodation</a>
+              <hr />
+            </li>
+            <li>
+              <a href="#"> > Application Procedure</a>
+              <hr />
+            </li>
+            <li>
+              <a href="#"> > Career Counselling</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > Choice of University</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > Course Selection</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > Documentation</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > On The Spot Admissions</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > Pre Departure Briefing</a>
+              <hr />
+            </li>
+
+            <li>
+              <a href="#"> > Visa Counseling</a>
+              <hr />
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section universities">
+          <h2>UNIVERSITIES</h2>
+          <ul>
+            <li>
+              <a href="#"> > UK</a>
+              <hr />
+            </li>
+            <li>
+              <a href="#"> > Ireland</a>
+              <hr />
+            </li>
+            <li>
+              <a href="#"> > Canada</a>
+              <hr />
+            </li>
+            <li>
+              <a href="#"> > USA</a>
+              <hr />
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h2>CONTACT US</h2>
+          <p>Block 13, Office No. 118, 1st Floor, Dubai</p>
+          <p>Knowledge Park PO BOX: 46875,</p>
+          <p>Dubai, United Arab Emirates</p>
+          <p><span class="icon">📞</span> +971 4 3911178</p>
+          <p><span class="icon">📞</span> +971 4 3911179</p>
+          <p><span class="icon">📞</span> +971 4 3664670</p>
+          <p><span class="icon">📱</span> +971 50 4293760</p>
+          <p>
+            <span class="icon">✉️</span>
+            <a href="mailto:dubai@unidirection.com">dubai@unidirection.com</a>
+          </p>
+        </div>
+
+        <div class="footer-section logos">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeqDLci7jkvl2nj5Q1Z1LUOv4yNm8MICOvww&s"
+            alt="Ministry of Education logo"
+          />
+          <img
+            src="https://images-platform.99static.com//M9klz892_WDTg1_l4AAiasXI0gE=/300x297:833x830/fit-in/500x500/99designs-contests-attachments/98/98214/attachment_98214556"
+            alt="KHDA logo"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
